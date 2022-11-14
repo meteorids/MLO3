@@ -1,0 +1,28 @@
+#
+#  TO BE IMPLEMENTED! THIS FILE HAS NO EFFECT YET!  
+#
+# Water particles are modelled by effective homogeneous spheres, where
+# a 1/r^4 Young-type size distribution is assumed at the
+# moment. Pigments, minerals, and dissolved organic matter are are all
+# embedded in the spheres.
+
+# Particle volume fraction.
+
+PROFILE_VOLUME_FRACTION = 120e3 3.7e-5
+
+# Real part of refractive index relative to pure water
+
+REFRACTIVE_INDEX_REAL = 1.09
+
+# Imaginary part of the refractive index at 500 nm (not relative to
+# pure water).
+
+REFRACTIVE_INDEX_IMAG_500 = 6e-4
+
+# Fraction of light absorbed by colored dissolved organic matter at
+# 500 nm relative to the amount absorbed by other substances in the
+# water.
+
+*TBI* CDOM_FRACTION_500 = 0.3
+
+# End of waterParticle configuration file

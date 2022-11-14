@@ -1,0 +1,167 @@
+Number of Runs: 1
+Materials with optical properties at reference wavelength 500 nm.
+
+Data format:
+(1) Material name
+(2) Concentration/occupied volume/amount (type*)
+(3) Optical depth (4) Single-scattering albedo (5) Asymmetry factor
+(6) Absorption optical depth     (7) Scattering optical depth
+(8) Absorption coefficient [1/m] (9) Scattering coefficient [1/m]
+(10) Delta-fit scattering scaling factor
+* sf = scaling factor, vf = volume fraction
+
+runNo: 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.158e-05  1  0
+  0  2.158e-05
+  0  7.192e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003076  1  0
+  0  0.0003076
+  0  1.538e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0008578  1  0
+  0  0.0008578
+  0  8.578e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.003712  1  0
+  0  0.003712
+  0  3.712e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007277  1  0
+  0  0.007277
+  0  1.213e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01046  1  0
+  0  0.01046
+  0  2.615e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01971  1  0
+  0  0.01971
+  0  4.927e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03693  1  0
+  0  0.03693
+  0  9.233e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02889  1  0
+  0  0.02889
+  0  1.445e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0373  1  0
+  0  0.0373
+  0  1.865e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0471  1  0
+  0  0.0471
+  0  2.355e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.05878  1  0
+  0  0.05878
+  0  2.939e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07256  1  0
+  0  0.07256
+  0  3.628e-05  
+  1
+ Cloud 
+  4.396e-07 (vf) 
+  63.6  1  0.7648
+  5.954e-06  63.6
+  2.977e-09  0.0318  
+  0.4823
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0887  1  0
+  0  0.0887
+  0  4.435e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.1941  0.9495  0.6303
+  0.009795  0.1843
+  4.898e-06  9.215e-05  
+  0.9996
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.007298  1  0.9422
+  0  0.007298
+  0  3.649e-06  
+  0.2008
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================

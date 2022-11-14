@@ -1,0 +1,1562 @@
+Number of Runs: 10
+Materials with optical properties at reference wavelength 380 nm.
+
+Data format:
+(1) Material name
+(2) Concentration/occupied volume/amount (type*)
+(3) Optical depth (4) Single-scattering albedo (5) Asymmetry factor
+(6) Absorption optical depth     (7) Scattering optical depth
+(8) Absorption coefficient [1/m] (9) Scattering coefficient [1/m]
+(10) Delta-fit scattering scaling factor
+* sf = scaling factor, vf = volume fraction
+
+runNo: 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 1
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 2
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 3
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 4
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 5
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 6
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 7
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 8
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================
+runNo: 9
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 1:
+ Earth atmospheric gases 
+  1 (sf) 
+  2.319e-05  1  0
+  0  2.319e-05
+  0  7.729e-10  
+  1
+Bottom depth at 30000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 2:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0003317  1  0
+  0  0.0003317
+  0  1.659e-08  
+  1
+Bottom depth at 50000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 3:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0009252  1  0
+  0  0.0009252
+  0  9.252e-08  
+  1
+Bottom depth at 60000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 4:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.004004  1  0
+  0  0.004004
+  0  4.004e-07  
+  1
+Bottom depth at 70000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 5:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.007849  1  0
+  0  0.007849
+  0  1.308e-06  
+  1
+Bottom depth at 76000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 6:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.01128  1  0
+  0  0.01128
+  0  2.82e-06  
+  1
+Bottom depth at 80000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 7:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.02125  1  0
+  0  0.02125
+  0  5.313e-06  
+  1
+Bottom depth at 84000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 8:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03983  1  0
+  0  0.03983
+  0  9.958e-06  
+  1
+Bottom depth at 88000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 9:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.03116  1  0
+  0  0.03116
+  0  1.558e-05  
+  1
+Bottom depth at 90000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 10:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.04023  1  0
+  0  0.04023
+  0  2.012e-05  
+  1
+Bottom depth at 92000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 11:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0508  1  0
+  0  0.0508
+  0  2.54e-05  
+  1
+Bottom depth at 94000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 12:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.0634  1  0
+  0  0.0634
+  0  3.17e-05  
+  1
+Bottom depth at 96000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 13:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.07826  1  0
+  0  0.07826
+  0  3.913e-05  
+  1
+ Cloud 
+  1e-06 (vf) 
+  152.6  1  0.7645
+  3.62e-06  152.6
+  1.81e-09  0.0763  
+  0.5087
+Bottom depth at 98000.0000 [m]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Layer 14:
+ Earth atmospheric gases 
+  1 (sf) 
+  0.09567  1  0
+  0  0.09567
+  0  4.784e-05  
+  1
+ Aerosols fine mode
+  1.4e-11 (vf) 
+  0.3235  0.9513  0.6731
+  0.01576  0.3077
+  7.878e-06  0.0001539  
+  1.006
+ Aerosols coarse mode
+  1.4e-11 (vf) 
+  0.0169  1  0.6084
+  3.618e-07  0.0169
+  1.809e-10  8.449e-06  
+  0.6195
+Bottom depth at 100000.0000 [m]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layer 15:
+ Vacuum
+  1 (sf) 
+  0  -nan  0
+  0  0
+  0  0  
+  1
+Bottom depth at 100100.0000 [m]
+=============================================================

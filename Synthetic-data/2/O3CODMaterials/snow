@@ -1,0 +1,129 @@
+## AccuRT configuration file for snow material ##
+
+# Snow grains are assumed to consist of a collection of homogeneous
+# spheres with a single-mode log-normal volume size distribution
+# with a specified volume mode radius (also called the mean radius  
+# below) and width. The refractive index is based on the 
+# compilation by Warren and Brandt (2008).
+# Two options are available: (i) a fast parameterization based on 
+# Mie computations (default), and (ii) a complete Mie computation. 
+
+# See end of the main configuration file for documentation on
+# how to tabulate data.
+
+# NOTES: This snow material shall be included at 
+# the bottom of the upper slab. An important parameter is the 
+# snow layer geometrical thickness, which is controlled by the 
+# LAYER_DEPTHS_UPPER_SLAB tag in the main configuration file. 
+# (All layer geometrical thicknesses are controlled in the main 
+# configuration file by the two LAYER_DEPTHS tags.) Note that by
+# default there are 14 layers in the upper slab (atmosphere).
+# Additional layers must be allocated at the bottom of the 
+# upper slab to accommodate the snow layers.
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or
+# <depth_numbering> depending on whether to use layer numbering
+# (counting downward from top-of-the-upper-slab (TUS)) or depths  
+# in meters (measured downward from TUS) in the SNOW_PROFILE and 
+# IMPURITY_PROFILE tags below. The layer numbering is explained 
+# in detail in the main configuration file below the default 
+# values for the LAYER_DEPTHS_UPPER_SLAB tag. For example, if a 
+# total snow depth of 0.2 m is desired, and if layer boundaries 
+# 99999.8 and 99999.9 have been added to the default layer 
+# settings in the main configuration file so that layers 15 and 
+# 16 (counting downward from TOS) contain snow, then snow densities 
+# of 200 and and 260 kg/m^3 can be assigned to the two lowermost 
+# layers in the upper slab as follows:
+# SNOW_PROFILE  = 15 200
+#                 16 260
+
+PROFILE_LABEL = layer_numbering
+
+# The SNOW_PROFILE tag shall be assigned tabulated snow densities 
+# [kg/m^3] versus depth [m] measured from the TUS or layer 
+# number, counting from the TUS.
+
+SNOW_PROFILE  = 15 200
+                16 260
+
+# The GRAIN_EFFECTIVE_RADIUS tag shall be assigned an effective
+# radius [microns] versus depth [m] measured from the TUS or
+# layer number, counting from the TUS.
+
+GRAIN_EFFECTIVE_RADIUS = 15 100
+                         16 300
+
+# The IMPURITY_PROFILE tag shall be assigned tabulated snow impurity
+# fractions [unitless] versus depth [m] measured from the TOS or layer 
+# number, counting from the TUS. The snow impurity fraction is the 
+# volume fraction of the snow occupied by impurities. 
+# Snow impurities are assumed to be absorbing, but non-scattering. 
+# A single value will give a constant value of the impurity fraction 
+# with depth.
+
+IMPURITY_PROFILE = 15 1e-6
+                   16 1e-7
+
+# The IMPURITY_IMAG tag shall be assigned the imaginary part of
+# the impurity refractive index [unitless] versus wavelength [nm]
+# measured from the TUS or layer number, counting from the TUS. 
+# A single value will give a constant index with wavelength.
+
+IMPURITY_IMAG = 0.4
+
+# The INTERNAL_MIXING tag shall be set to <true> or <false> 
+# depending on whether the snow impurities should be distributed 
+# inside or outside the snow grains, respectively.
+
+INTERNAL_MIXING = false
+
+# The USE_HG_PHASE_FUNCTION_OVERRIDE tag shall be set to <true>  
+# or <false> depending on whether the Henyey-Greenstein (HG) 
+# phase function will be used instead of the full Mie phase 
+# function. If the tag is set to <true>, the asymmetry factor 
+# of the HG phase function will be set equal to the first moment 
+# of the Mie phase function, and the HG phase function will be used.
+
+USE_HG_PHASE_FUNCTION_OVERRIDE = false
+
+# The USE_PARAMETERIZED_MIE_CODE tag shall be assigned <true> or
+# <false> depending on whether to use the parameterizations of the
+# inherent optical properties described in Stamnes et al. JQSRT 
+# 2011, or a complete Mie calculation. Note that the parameterized 
+# Mie version uses a Henyey-Greenstein phase function.
+  
+USE_PARAMETERIZED_MIE_CODE = true
+
+# The SIZE_DISTRIBUTION_WIDTH tag shall be assigned tabulated 
+# size distribution widths [unitless] versus depth [m] measured 
+# from the TUS or layer number, counting from the TUS. The size 
+# distribution width is defined as the standard deviation sigma 
+# of the log transformed size distribution. A single value will 
+# give a constant width of the grain size distribution with depth. 
+# This width is irrelevant if USE_PARAMETERIZED_MIE_CODE = true.
+# If USE_PARAMETERIZED_MIE_CODE = false, then the mode radius 
+# r_{n} (in number density space) of the lognormal size 
+# distribution will be calculated from the effective grain radius 
+# using the relationship: r_{n} = r_{eff} exp{-2.5 sigma^2}, 
+# between the effective grain radius r_{eff} and the mode 
+# radius r_{n} (see Eq. (25) in Technical notes).
+
+SIZE_DISTRIBUTION_WIDTH = 0.1
+
+# The QUADRATURE_POINTS tag shall be assigned the number of
+# quadrature points to be used in the numerical integration of 
+# absorption and scattering coefficients over the particle size 
+# distribution.
+# The number of quadrature points should be an integer greater
+# than 1, and should be set high enough to yield an accurate
+# answer, but not too high to waste computer time.
+# It is not recommended to use less than 50 quadrature points.
+# This tag is only used when USE_PARAMETRIZED_MIE_CODE = false
+
+QUADRATURE_POINTS = 50
+
+# End of snow configuration file

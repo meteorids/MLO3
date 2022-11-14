@@ -1,0 +1,61 @@
+10
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000
+Wavelength [nm]  Refractive index of lower slab
+302.00           1.00000
+312.00           1.00000
+320.00           1.00000
+340.00           1.00000
+380.00           1.00000

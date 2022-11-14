@@ -1,0 +1,5 @@
+# git is goind to ignore the files / folders in this file:
+
+.DS_Store
+Data/
+Codes/NILU-OUT

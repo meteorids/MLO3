@@ -1,0 +1,266 @@
+## AccuRT configuration file for aerosol material ##
+
+# Aerosols are assumed to consist of a collection of homogeneous
+# spheres having a bi-modal log-normal volume size distribution 
+# with a specified volume mode radius (also called the mean radius  
+# below) and width for each mode (fine or coarse). A Mie code 
+# is used to compute the inherent optical properties of aerosols.
+
+# See end of the main configuration file for documentation on
+# how to assign values to list and table tags. 
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or 
+# <depth_numbering> depending on whether to use layer numbering 
+# (counting downward from the top-of-the-upper-slab (TUS)) or 
+# depths in meters (counting downward from the TUS) in the 
+# MATERIAL_PROFILE tag below. The layer numbering is explained 
+# in detail in the main configuration file below the default 
+# values for the LAYER_DEPTHS_UPPER_SLAB tag.
+
+PROFILE_LABEL = layer_numbering
+
+# The REFERENCE_WAVELENGTH [nm] tag is used only if 
+# PROFILE_TYPE = extinction_coefficient (not yet implemented).
+# The reference wavelength is the wavelength at which we calculate 
+# the extinction coefficient (see PROFILE_LABEL and PROFILE_TYPE).
+
+REFERENCE_WAVELENGTH = 865
+
+# The MATERIAL_PROFILE tag shall be used to specify the layers
+# containing aerosols and the corresponding volume fractions or 
+# extinction coefficients (not yet implemented), if 
+# <layer_numbering> is used. 
+# Alternatively, if <depth_numbering> is used, then the depths 
+# and the corresponding volume fractions or extinction coefficients 
+# must be specified as illustrated in Example 1 below. Note that 
+# the depths specified in the The MATERIAL_PROFILE tag do not have 
+# to coincide with the depths in the LAYER_DEPTHS_UPPER_SLAB tag 
+# (although they do in Example 1 below).
+# Linear interpolation will be used to distribute the material 
+# appropriately in the layers specified in the 
+# LAYER_DEPTHS_UPPER_SLAB tag in the main configuration file 
+# (see Example 1 below and the user manual for detailed 
+# explanations of the linear interpolation scheme).
+# The PROFILE_TYPE tag shall be assigned <volume_fraction> 
+# [unitless] or <extinction_coefficient> [1/m] (not yet 
+# implemented) depending on whether to use extinction 
+# coefficients or volume fractions in the MATERIAL_PROFILE 
+# tag below.
+
+PROFILE_TYPE = volume_fraction
+
+#
+
+MATERIAL_PROFILE = 14 2.8e-11
+
+# Here the layers 12, 13, and 14 are located in accordance with the 
+# default values of the LAYER_DEPTHS_UPPER_SLAB tag in the main 
+# configuration file, and the numbers in the second column correspond 
+# to PROFILE_TYPE = volume fraction.
+
+# The REFRACTIVE_INDICES_REAL_FINE tag shall be assigned values for
+# the real part of the refractive index versus wavelength [nm]
+# for the fine volume size distribution mode.
+# Based on Ahmad et al. (2010, private communication, 2013):
+
+REFRACTIVE_INDICES_REAL_FINE =  200   1.52985
+				337.1 1.53110
+				412   1.53110
+				443   1.53110
+				490   1.53110
+				514.5 1.53110
+				555   1.53110
+				632.8 1.53110
+				670   1.53110
+				860   1.52115
+				869   1.52110
+				1060  1.52115
+				1300  1.46150
+				1536  1.40185
+				1800  1.33230
+				2000  1.26270
+				2250  1.22295
+				2500  1.18320
+
+# The REFRACTIVE_INDICES_IMAG_FINE tag shall be assigned values for
+# the imaginary part of the refractive index versus wavelength [nm]
+# for the fine volume size distribution mode. 
+# Based on Ahmad et al. (2010, private communication, 2013):
+
+REFRACTIVE_INDICES_IMAG_FINE =  200   0.008715
+				337.1 0.010253
+				412   0.010253
+				443   0.010236
+				490   0.010210
+				514.5 0.010210
+				555   0.010157
+				632.8 0.010110
+				670   0.010110
+				860   0.010110
+				869   0.010112
+				1060  0.010160
+				1300  0.010210
+				1536  0.010260
+				1800  0.010360
+				2000  0.010410
+				2250  0.011455
+				2500  0.011505
+
+# The REFRACTIVE_INDICES_REAL_COARSE tag shall be assigned values of
+# the real part of the refractive index versus wavelength [nm]
+# for the coarse volume size distribution mode.
+# Based on Ahmad et al. (2010, private communication, 2013):
+
+REFRACTIVE_INDICES_REAL_COARSE =  200   1.510
+				  337.1 1.510
+				  412   1.500
+				  443   1.500
+				  490   1.500
+				  514.5 1.500
+				  555   1.499
+				  632.8 1.500
+				  670   1.490
+				  860   1.480
+				  869   1.480
+				  1060  1.470
+				  1300  1.470
+				  1536  1.460
+				  1800  1.450
+				  2000  1.450
+				  2250  1.440
+				  2500  1.430
+
+# The REFRACTIVE_INDICES_IMAG_COARSE tag shall be assigned values for
+# the imaginary part of the refractive index versus wavelength [nm]
+# for the coarse volume size distribution mode.
+# Based on Ahmad et al. (2010, private communication, 2013): 
+
+REFRACTIVE_INDICES_IMAG_COARSE =  200   1e-4
+				  337.1 4e-7
+				  412   1e-7
+				  443   1e-7
+				  490   1e-7
+				  514.5 1e-8
+				  555   1e-7
+				  632.8 2e-8
+				  670   1e-7
+				  860   3e-6
+				  869   3e-6
+				  1060  2e-4
+				  1300  4e-4
+				  1536  6e-4
+				  1800  8e-4
+				  2000  1e-3
+				  2250  2e-3
+				  2500  4e-3
+
+# The SIZE_DISTRIBUTION_MEAN_RADII tag shall be assigned values of
+# the volume mode radii [microns] of the fine and coarse volume
+# size distribution modes. The most probable radius of each mode is 
+# defined as the radius at which the log-normal volume size distribution 
+# of that mode has its maximum. Using average values for open ocean 
+# from Ahmad et al. (2010), Table 2, we have:
+
+SIZE_DISTRIBUTION_MEAN_RADII = 0.1499 2.1786
+
+# The FINE_MODE_FRACTION tag shall be assigned values for the fraction
+# of the total volume of the particles contained in the fine mode, 
+# denoted f_v so that f_v = V_f/(V_f+V_c) = V_f/V where V_f is the 
+# volume of the fine mode particles, V_c is the volume of
+# the coarse mode particles, and V is the total volume of both modes.
+# If PROFILE_TYPE = volume_fraction then the MATERIAL_PROFILE values
+# will be equal to V. The FINE_MODE_FRACTION, f_v, in volume-space may
+# also be related to the fine mode fraction in terms of number density,
+# f_n, where f_n = N_f/(N_f+N_c), where N_f is the number of fine mode 
+# particles and N_c is the number of coarse mode particles, although
+# this relationship is approximate and depends upon the mean size 
+# and width of the particles in each mode:
+# f_v		f_n	
+# 0		0
+# 0.01		0.9
+# 0.02		0.95
+# 0.50		0.999
+# 0.95		0.9999
+#
+# Thus FINE_MODE_FRACTION (f_v) is a number between 0 and 1. If it is 0
+# then there are no fine mode particles, and if it is 1 there are no
+# coarse mode particles.
+
+FINE_MODE_FRACTION = 0.5
+
+# The RELATIVE_HUMIDITY tag controls the way the aerosol particle
+# coarse and fine modes grow (increasing the mean radii) and the
+# refractive indices change (become more like water) as the relative
+# humidity increases. The mean radii and the refractive indices
+# for the fine and coarse modes as specified by the tags above
+# will be used if RELATIVE_HUMIDITY = 0. Otherwise, setting
+# RELATIVE_HUMIDITY to a value between 0 and 0.95 will modify
+# these values, as appropriate, where the values specified by the
+# tags above are taken to be the dry aerosol values.
+# See the aerosols material in the Technical Notes for details. 
+
+RELATIVE_HUMIDITY = 0.3
+
+# The SIZE_DISTRIBUTION_WIDTHS tag shall be assigned a value for the
+# width of each of the two volume size distribution modes. The width
+# is defined as the standard deviation. 
+# For a given mode with total volume V_i and mean radius r_i,let 
+# r_small and r_large denote the radii at which dV_i/d(ln(r_i)) 
+# has values that are respectively half a standard deviation below 
+# and above the mean radius r_i. Then the standard deviation 
+# sigma_i (and thus the value of the SIZE_DISTRIBUTION_WIDTHS tag 
+# for that mode) is given as sigma_i =log(r_large/r_small).
+# Using average values for the open ocean from Ahmad et al. (2010), 
+# Table 2, we have:
+
+SIZE_DISTRIBUTION_WIDTHS = 0.437 0.672
+
+# The QUADRATURE_POINTS tag shall be assigned the number of
+# quadrature points to be used in the numerical integration of 
+# absorption and scattering coefficients over the particle size 
+# distribution.
+# The number of quadrature points should be an integer greater
+# than 1, and should be set high enough to yield an accurate
+# answer, but not too high to waste computer time.
+# It is not recommended to use less than 50 quadrature points.
+
+QUADRATURE_POINTS = 100
+
+################## EXAMPLES #################
+
+# EXAMPLE 1:
+# If the user wants aerosols to be included in the lower 6 km of the 
+# atmosphere, and wants to use volume fractions having the values of e.g.
+# 1e-12 between heights of 4000 m and 6000 m
+# 3e-12 between heights of 2000 m and 4000 m
+# 2e-12 between heights of    0 m and 2000 m,
+# then the tags should be assigned the following values:
+# PROFILE_LABEL = layer_numbering
+# PROFILE_TYPE = volume_fraction
+# MATERIAL_PROFILE = 12 1e-12 
+#                    13 3e-12
+#		      14 2e-12  
+# where, in accordance with the default values of the 
+# LAYER_DEPTHS_UPPER_SLAB tag in the main configuration 
+# file, "layer 12" is the layer between 4 and 6 km height, 
+# "layer 13" is the layer between 2 and 4 km height, and  
+# "layer 14" is the layer between 0 and 2 km height, each   
+# of which include aerosols. 
+#
+# Alternatively, if the user wishes to use <depth_numbering> 
+# instead of <layer_numbering>, she/he could use tags with 
+# the following assigned values:
+# PROFILE_LABEL = depth_numbering
+# PROFILE_TYPE = volume_fraction
+# MATERIAL_PROFILE = 94.0e3     1e-12 
+#                    95.999e3   1e-12
+#                    96.000e3   3e-12
+#                    97.999e3   3e-12
+#		     98.000e3   2e-12
+#		     100.000e3   2e-12
+
+# End of aerosols configuration file

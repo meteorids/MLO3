@@ -1,0 +1,254 @@
+Number of Runs: 1
+
+runNo: 0
+Layer boundaries [m]: 
+30000.0000
+50000.0000
+60000.0000
+70000.0000
+76000.0000
+80000.0000
+84000.0000
+88000.0000
+90000.0000
+92000.0000
+94000.0000
+96000.0000
+98000.0000
+100000.0000
+100100.0000
+boundaryNo: 15
+
+Wavelengths [nm]: 380.0000 
+wavelengthNo: 1
+
+Number of Phase Moments used: 9
+
+Wavelength [nm]: 380.0000
+
+layerNo: 1
+Layer boundaries (in depths) [m]: 0.0000 - 30000.0000
+Layer optical depth             : 0.00002318620682
+Cumulative optical depth        : 0.00002318620682
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000000077287
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000000077287
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 2
+Layer boundaries (in depths) [m]: 30000.0000 - 50000.0000
+Layer optical depth             : 0.00033172965050
+Cumulative optical depth        : 0.00035491585732
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000001658648
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000001658648
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 3
+Layer boundaries (in depths) [m]: 50000.0000 - 60000.0000
+Layer optical depth             : 0.00092524290085
+Cumulative optical depth        : 0.00128015875816
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000009252429
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000009252429
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 4
+Layer boundaries (in depths) [m]: 60000.0000 - 70000.0000
+Layer optical depth             : 0.00400388240814
+Cumulative optical depth        : 0.00528404116631
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000040038824
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000040038824
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 5
+Layer boundaries (in depths) [m]: 70000.0000 - 76000.0000
+Layer optical depth             : 0.00784870982170
+Cumulative optical depth        : 0.01313275098801
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000130811830
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000130811830
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 6
+Layer boundaries (in depths) [m]: 76000.0000 - 80000.0000
+Layer optical depth             : 0.01128014922142
+Cumulative optical depth        : 0.02441290020943
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000282003731
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000282003731
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 7
+Layer boundaries (in depths) [m]: 80000.0000 - 84000.0000
+Layer optical depth             : 0.02125385403633
+Cumulative optical depth        : 0.04566675424576
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000531346351
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000531346351
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 8
+Layer boundaries (in depths) [m]: 84000.0000 - 88000.0000
+Layer optical depth             : 0.03983050584793
+Cumulative optical depth        : 0.08549726009369
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000995762646
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000995762646
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 9
+Layer boundaries (in depths) [m]: 88000.0000 - 90000.0000
+Layer optical depth             : 0.03116396069527
+Cumulative optical depth        : 0.11666122078896
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00001558198035
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00001558198035
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 10
+Layer boundaries (in depths) [m]: 90000.0000 - 92000.0000
+Layer optical depth             : 0.04023349285126
+Cumulative optical depth        : 0.15689471364021
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00002011674643
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00002011674643
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 11
+Layer boundaries (in depths) [m]: 92000.0000 - 94000.0000
+Layer optical depth             : 0.05080249905586
+Cumulative optical depth        : 0.20769721269608
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00002540124953
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00002540124953
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 12
+Layer boundaries (in depths) [m]: 94000.0000 - 96000.0000
+Layer optical depth             : 0.06339620053768
+Cumulative optical depth        : 0.27109341323376
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00003169810027
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00003169810027
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 13
+Layer boundaries (in depths) [m]: 96000.0000 - 98000.0000
+Layer optical depth             : 0.07826067507267
+Cumulative optical depth        : 0.34935408830643
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00003913033754
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00003913033754
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 14
+Layer boundaries (in depths) [m]: 98000.0000 - 100000.0000
+Layer optical depth             : 0.09567087888718
+Cumulative optical depth        : 0.44502496719360
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00004783543944
+Single-scattering albedo        : 1.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00004783543944
+Scaled single-scattering albedo : 1.00000000000000
+Scaled phase function moments   : 1.000000000 0.000000000 0.095872578 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+layerNo: 15
+Layer boundaries (in depths) [m]: 100000.0000 - 100100.0000
+Layer optical depth             : 0.00000000000000
+Cumulative optical depth        : 0.44502496719360
+Absorption coeff. [1/m]         : 0.00000000000000
+Scattering coeff. [1/m]         : 0.00000000000000
+Single-scattering albedo        : 0.00000000000000
+Scattering scaling factor       : 1.00000000000000
+--
+Scaled IOPs for reproduction in user-specified/RT codes..
+Absorption coeff. [1/m]         : 0.00000000000000
+Scaled scattering coeff. [1/m]  : 0.00000000000000
+Scaled single-scattering albedo : 0.00000000000000
+Scaled phase function moments   : 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 
+
+

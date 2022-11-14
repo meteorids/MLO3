@@ -1,0 +1,25 @@
+# AccuRT configuration file for keratin material. 
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or
+# <depth_numbering> depending on whether to use layer numbering
+# (counting downward from skin surface) or depths in meters (counting
+# downward from skin surface) in the MATERIAL_PROFILE tag below. The
+# layer numbering is explained in detail in the main configuration
+# file.
+
+PROFILE_LABEL = layer_numbering
+
+# The MATERIAL_PROFILE tag shall be used to specify the layer number
+# (or depth) and the corresponding volume fraction filled by the
+# keratin material.
+
+MATERIAL_PROFILE = 1 0.5
+		   2 0.0
+                   3 0.0
+		   4 0.0  
+
+# End of keratin configuration file

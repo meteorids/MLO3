@@ -1,0 +1,73 @@
+## AccuRT configuration file for earth_atmospheric_gases material ##
+
+# See end of the main configuration file for documentation on
+# how to assign values to list and table tags.
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The ATMOSPHERE_TYPE tag shall be assigned <tropical>,
+# <mid_latitude_summer>, <mid_latitude_winter>, <sub_arctic_summer>,
+# <sub_arctic_winter>, or <us_standard>.
+
+ATMOSPHERE_TYPE = us_standard 
+
+# The GROUND_ALTITUDE tag shall be assigned the ground surface height
+# [m] above sea level.
+
+GROUND_ALTITUDE = 0.0
+
+# The SAVE_ATMOSPHERIC_PROFILES tag shall be assigned <true> or
+# <false>, depending on whether or not the atmospheric profiles and
+# equivalent depths are to be saved to atmospheric_profiles.txt in the
+# material folder. This file will for example contain the default
+# ozone column amount, which is needed when scaling to a given amount,
+# i.e.
+# F_O3=userSpecifiedEquivalentDepth/outputEquivalentDeptAtUnitScalingFactor.
+# More documentation is given in the header of the saved file. Note
+# that this tag is effective only when IOP_MODEL = air.
+
+SAVE_ATMOSPHERIC_PROFILES = false
+
+# The SEA_LEVEL_PRESSURE tag shall be assigned the atmospheric
+# pressure at sea level [mbar]. Note that 1 atm pressure = 1013.25
+# mbar = 1.01325 x 10^5 Pa = 1.01325 x 10^5 N/m^2. This tag is effective 
+# only when IOP_MODEL = air.
+
+SEA_LEVEL_PRESSURE = 1013 
+
+# The IOP_MODEL tag shall be assigned <gasIop> or <air>, depending on
+# the type of inherent optical properties model to be used. Note that
+# with the air option only ozone will be included among the absorbing
+# gases. Thus changing parameters for other gases when using the air
+# model will not have any effect on the output.
+
+IOP_MODEL = gasIop
+
+# The F tags shall be assigned scaling factors for the atmospheric
+# gases.
+
+F_H2O     = 1.0 # Only for gasIop
+F_CO2     = 1.0 # Only for gasIop
+F_O3        = 6.454000e-01# Both for gasIop and air
+F_N2O     = 1.0 # Only for gasIop
+F_CO      = 1.0 # Only for gasIop
+F_CH4     = 1.0 # Only for gasIop
+F_O2      = 1.0 # Only for gasIop
+F_NO      = 1.0 # Only for gasIop
+F_SO2     = 1.0 # Only for gasIop
+F_NO2     = 1.0 # Only for gasIop
+F_NH3     = 1.0 # Only for gasIop
+F_HNO3    = 1.0 # Only for gasIop
+F_N2      = 1.0 # Only for gasIop
+F_H2O_CON = 1.0 # Only for gasIop
+F_RAY_SCA = 1.0 # Both for gasIop and air
+
+# spectral response function type
+# 1 = rectangular, 2 = triangular, 3 = Gaussian, 4 = user specified
+# If set to 4, will read from specfically crafted file "srf_gasiop.txt"
+
+RESPONSE_FUNCTION_TYPE = 1
+
+# End of earth_atmospheric_gases material configuration file

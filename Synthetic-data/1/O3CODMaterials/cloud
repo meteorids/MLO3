@@ -1,0 +1,94 @@
+## AccuRT configuration file for cloud material ##
+
+# Clouds are assumed to consist of a collection of homogeneous
+# spheres having a single-mode log-normal volume size
+# distribution with a specified volume mode radius (also called 
+# the mean radius below) and width. The refractive for pure 
+# water is based on data data taken from the literature. The 
+# refractive index of ice is based on the compilation by Warren 
+# and Brandt (2008). A Mie code is used to compute the inherent 
+# optical properties of cloud particles (see Technical notes 
+# for details).
+
+# See end of the main configuration file for documentation on
+# how to assign values to list and table tags. 
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or
+# <depth_numbering> depending on whether to use layer numbering
+# (counting downward from top-of-the-upper-slab (TUS)) or depths  
+# in meters (measured downward from TUS) in the CLOUD_PROFILE 
+# tag below. The layer numbering is explained in detail in the 
+# main configuration file below the default values for the 
+# LAYER_DEPTHS_UPPER_SLAB tag. 
+
+PROFILE_LABEL = layer_numbering
+
+# The CLOUD_TYPE tag shall be assigned either <water> or <ice>
+# depending on whether the cloud consists of liquid water droplets 
+# or ice particles. A mixture of water droplets and ice particles 
+# may be obtained by including one <water> cloud material and one 
+# <ice> cloud material.
+
+CLOUD_TYPE = water
+
+# The CLOUD_PROFILE tag shall be used to specify the layer 
+# number (or depth) and the volume fraction of the cloud 
+# particles. For example, if one desires a cloud to be 
+# included between 2000 m and 4000 m with a volume fraction of
+# 1e-6, then the tags should be assigned the following values:
+# PROFILE_LABEL = layer_numbering
+# CLOUD_TYPE = water
+# CLOUD_PROFILE = 13 1e-6  
+
+CLOUD_PROFILE = 13 2.861900e-7
+
+# The GRAIN_EFFECTIVE_RADIUS tag shall be assigned the volume mode 
+# radius r_v [microns] of the cloud particles in each layer (or depth).
+
+GRAIN_EFFECTIVE_RADIUS = 10 
+
+# The SIZE_DISTRIBUTION_WIDTH tag shall be assigned a value for the
+# width of the volume size distribution. The width is defined as the 
+# standard deviation. For a total volume V of the cloud particles and 
+# mode radius r_v,let r_small and r_large denote the radii at which 
+# dV/d(ln(r)) has values that are respectively half a standard 
+# deviation below and above the mode radius r. Then the standard 
+# deviation sigma (and thus the value of the SIZE_DISTRIBUTION_WIDTH 
+# tag) is given as sigma =log(r_large/r_small).
+
+SIZE_DISTRIBUTION_WIDTH = 0.2
+
+# The USE_PARAMETERIZED_MIE_CODE tag shall be assigned <true> or
+# <false> depending on whether to use the parameterizations of the
+# inherent optical properties described in Stamnes et al. JQSRT
+# 2011, or a complete Mie calculation. Note that the parameterized
+# Mie version uses a Henyey-Greenstein phase function.
+
+USE_PARAMETERIZED_MIE_CODE = true
+
+# The USE_HG_PHASE_FUNCTION_OVERRIDE tag shall be set to <true>  
+# or <false> depending on whether the Henyey-Greenstein (HG) 
+# phase function will be used instead of the full Mie phase 
+# function. If the tag is set to <true>, the asymmetry factor 
+# of the HG phase function will be set equal to the first moment 
+# of the Mie phase function, and the HG phase function will be used.
+
+USE_HG_PHASE_FUNCTION_OVERRIDE = false
+
+# The QUADRATURE_POINTS tag shall be assigned the number of
+# quadrature points to be used in the numerical integration of 
+# absorption and scattering coefficients over the particle size 
+# distribution.
+# The number of quadrature points should be an integer greater
+# than 1, and should be set high enough to yield an accurate
+# answer, but not too high to waste computer time.
+# It is not recommended to use less than 50 quadrature points.
+# This tag is only used when USE_PARAMETRIZED_MIE_CODE = false
+
+QUADRATURE_POINTS = 50
+
+# End of cloud configuration file

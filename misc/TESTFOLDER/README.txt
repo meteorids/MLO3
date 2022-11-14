@@ -1,0 +1,1 @@
+This is an AccuRT setup for testing the datagenm matlab code and if it's running correctly with the basic arrangement.

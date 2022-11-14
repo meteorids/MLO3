@@ -1,0 +1,132 @@
+# AccuRT configuration file for user_specified_layer material
+
+# This material can be included in both the upper and lower slab.
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The INCLUDE_IN_LAYER_NUMBER tag shall be assigned one or more
+# integers defining in what layer(s) the material should be included.
+# The layer numbers are counted from one at the top of the slab where
+# the material is included. For example, if the material is included
+# in the lower slab, INCLUDE_IN_LAYER_NUMBER = 1 2, will fill the two
+# uppermost layers in the lower slab with the layer user specified
+# material.
+
+INCLUDE_IN_LAYER_NUMBER = 1
+
+# The ABSORPTION_COEFFICIENT tag shall be assigned the absorption
+# coefficient [1/m] versus wavelength [nm].
+
+ABSORPTION_COEFFICIENT = 
+   412  1.963e-01
+   440  1.246e-01
+   488  8.773e-02
+   510  6.551e-02
+   532  5.369e-02
+   555  4.234e-02
+   650  2.824e-02
+   676  2.780e-02
+   715  1.206e-02
+
+# The SCATTERING_COEFFICIENT tag shall be assigned the scattering
+# coefficient [1/m] versus wavelength [nm].
+
+SCATTERING_COEFFICIENT = 
+   412   1.007e+00
+   440   9.965e-01
+   488   8.411e-01
+   510   7.972e-01
+   532   7.719e-01
+   555   7.194e-01
+   650   5.994e-01
+   676   5.750e-01
+   715   5.248e-01
+
+# The REFRACTIVE_INDEX tag shall be assigned the real part of the bulk
+# refractive index relative to vacuum [unitless] versus wavelength
+# [nm]. Note that the refractive index will only have an effect if the
+# material is included as the first material in the lower slab.
+
+REFRACTIVE_INDEX = 1.34
+
+# The APPLY_DELTA_FIT tag shall be assigned <true> or <false> depending
+# on whether the delta-fit method should be applied to make the
+# scattering phase function less forward peaked.
+
+APPLY_DELTA_FIT = true
+
+# [**** HENYEY_GREENSTEIN_PHASE_FUNCTION ****]
+# The USE_HENYEY_GREENSTEIN_PHASE_FUNCTION tag shall be assigned
+# <true> or <false> depending on whether to use a Heney-Greenstein
+# phase function. 
+
+USE_HENYEY_GREENSTEIN_PHASE_FUNCTION = true
+    
+   # The ASYMMETRY_FACTOR tag [unitless] shall be assigned the
+   # asymmetry factor [unitless] versus wavelength [nm] for the
+   # Henyey-Greenstein phase function. A single value will give a
+   # constant asymmetry factor.
+
+   ASYMMETRY_FACTOR = 0.94 
+
+   # The USE_HALTRIN_TYPE tag shall be assigned <true> or <false>
+   # depending on whether to use the one-parameter two-term
+   # Henyey-Greenstein pahse function proposed by Haltrin (2002).
+
+   USE_HALTRIN_TYPE = false
+
+
+# [**** FOURNIER-FORAND_PHASE_FUNCTION ****]
+# TO BE IMPLEMENTED!
+# The USE_FOURNIER-FORAND_PHASE_FUNCTION tag should be assigned <true>
+# or <false> depending on whether to use the phase functions derived
+# by Fournier and Forand (1994).
+
+USE_FOURNIER-FORAND_PHASE_FUNCTION = false
+
+   # The SIZE_DISTRIBUTION_SLOPE tag [unitless] shall be assigned the
+   # slope of the hyperbolic size distribution. 
+
+   SIZE_DISTRIBUTION_SLOPE = 3.6 
+
+   # The PARTICLE_REFRACTIVE_INDEX tag [unitless] shall be assigned
+   # the real part of the effective particle refractive index relative
+   # to its surrounding medium.
+   
+   PARTICLE_REFRACTIVE_INDEX = 1.1
+
+
+# [**** PETZOLD_PHASE_FUNCTION ****]
+# TO BE IMPLEMENTED!
+# The USE_PETZOLD_PHASE_FUNCTION tag shall be assigned <true> or
+# <false> depending on whether to use one of the phase functions
+# measured by Petzold (1972).
+
+USE_PETZOLD_PHASE_FUNCTION = false
+
+   # The PETZOLD_WATER_TYPE tag shall be assigned <average>, <turbid
+   # harbor>, <coastal_ocean>, or <clear ocean>.
+
+   PETZOLD_WATER_TYPE = average
+
+
+# [**** TABULATED_PHASE_FUNCTION ****]
+# TO BE IMPLEMENTED!
+# The USE_TABULATED_PHASE_FUNCTION tag shall be assigned <true> or
+# <false> depending on whether to use the user tabulated function
+# specified below.
+
+USE_TABULATED_PHASE_FUNCTION = false
+
+   # The TABULATED_PHASE_FUNCTION tag shall be assigned phase function
+   # values [1/steradian] versus angles [degrees]. The tabulated phase
+   # function will be normalized to 1/(4*pi), and it can not be
+   # wavelength dependent. Assigning a single value will give
+   # isotropic scattering.
+
+   TABULATED_PHASE_FUNCTION = 1
+ 
+  
+# End of user_specified material configuration file

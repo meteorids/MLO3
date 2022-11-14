@@ -1,0 +1,54 @@
+## AccuRT configuration file for pure_water material ##
+
+# See end of the main configuration file for documentation on
+# how to assign values to list and table tags.
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or 
+# <depth_numbering> depending on whether to use layer numbering 
+# (counting downward from the top-of-the-lower-slab (TLS)) or  
+# depths in meters (measured downward from the TLS) in the 
+# MATERIAL_PROFILE tag below. The layer numbering is 
+# explained in detail in the main configuration file.
+
+PROFILE_LABEL = layer_numbering
+
+# The MATERIAL_PROFILE tag is needed for the water material if 
+# materials other than pure water with significant volume are 
+# included. For example, the layer number for water should be 
+# MATERIAL_PROFILE = 1 0.0 
+#	              2 1.0
+# if a layer of ice is included at the top of the lower slab. 
+# A single value will give a constant volume fraction of water 
+# with depth.
+
+MATERIAL_PROFILE = 1
+
+# *** The SALINITY tag is scheduled to be implemented in version
+# 2.0. Currently it has no effect. *** The SALINITY tag shall be
+# assigned tabulated salinity [psu] versus depth [m] measured from
+# bottom of upper slab. A single value gives constant salinity
+# with depth.
+
+SALINITY = 35  
+
+# *** The TEMPERATURE tag is scheduled to be implemented in version
+# 2.0. Currently it has no effect. *** 
+# The TEMPERATURE tag shall be assigned tabulated temperature [K] 
+# versus depth [m] measured from bottom of upper slab. A single 
+# value gives constant temperature with depth.
+
+TEMPERATURE = 290
+
+# *** The PRESSURE tag is scheduled to be implemented in version
+# 2.0. Currently it has no effect. *** 
+# The PRESSURE tag shall be  assigned tabulated pressures 
+# [Pa] versus depth [m] measured from the TLS. 
+# A single value gives constant pressure with depth.
+
+PRESSURE = 1.0e5
+
+# End of pure_water configuration file

@@ -1,0 +1,63 @@
+# AccuRT configuration file for user_specified material
+
+# This material can be included in both the upper and lower slab.
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or 
+# <depth_numbering> depending on whether to use layer numbering 
+# (counting downward from TOS) or depths in meters (counting downward
+# from TOS) in the MATERIAL_PROFILE tag below. The layer numbering 
+# is explained in detail in the main configuration file.
+
+PROFILE_LABEL = layer_numbering
+
+# The MATERIAL_PROFILE tag shall be used to specify the layer number
+# (or depth) and the volume fraction occupied by the user specified
+# material.
+
+MATERIAL_PROFILE  = 1 1
+		    2 1
+
+# The WAVELENGTHS tag should be assigned all user specified centre
+# wavelengths [nm].
+
+WAVELENGTHS = 400 600
+
+# Absorption coefficient (A_i_j) [1/m], scattering coefficient (S_i_j)
+# [1/m], and phase moments (P_i_j) for each layer (or depth) i and
+# each wavelength j. Trailing zero valued phase moments do not need to
+# be listed. Note that i and j should begin with one, not zero.
+
+A_1_1 = 0.50 #
+S_1_1 = 0.50 #
+P_1_1 = 1.0 0.0 0.1 #
+
+A_1_2 = 0.50 #
+S_1_2 = 0.50 #
+P_1_2 = 1.0 0.0 0.1 #
+
+A_2_1 = 0.60 #
+S_2_1 = 0.60 #
+P_2_1 = 1.0 0.1 0.0 #
+
+A_2_2 = 0.60 #
+S_2_2 = 0.60 #
+P_2_2 = 1.0 0.1 0.0 #
+
+# The REFRACTIVE_INDICES tag shall be assigned a list of the real part
+# of the bulk refractive index for each wavelength. Note that the
+# refractive index will have no effect if this material is included in
+# the upper slab.
+
+REFRACTIVE_INDICES = 1.0 1.0
+
+# The TURN_OFF_DELTA_FIT tag shall be assigned <true> or <false>
+# depending on whether the delta-fit method should be used to make the
+# scattering phase function less forward peaked.
+
+TURN_OFF_DELTA_FIT = false
+
+# End of user_specified material configuration file

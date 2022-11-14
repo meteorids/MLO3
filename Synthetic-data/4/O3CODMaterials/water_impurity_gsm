@@ -1,0 +1,66 @@
+# AccuRT configuration file for water_impurity_gsm material.
+
+# This material can only be included in the lower slab. 
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or
+# <depth_numbering> depending on whether to use layer numbering
+# (counting downward from water surface) or depths in meters (counting
+# downward from water surface) in the CHLOROPHYLL_CONCENTRATION and
+# MINERAL_CONCENTRATION tags below. The layer numbering is explained
+# in detail in the main configuration file.
+
+PROFILE_LABEL = layer_numbering
+
+# The CHLOROPHYLL_CONCENTRATION tag should be assigned the mass
+# concentration [mg/m^3] of chlorophyll-a versus water depth [m]. A
+# single value will give constant concentration with depth.
+
+CHLOROPHYLL_CONCENTRATION  = 1 0.5
+
+# The PARTICULATE_BACK_SCATTERING tag should be assigned the
+# BBP(443) [1/m]
+
+PARTICULATE_BACK_SCATTERING  = 1 0.002
+
+# The CDOM_ABSORPTION_443 tag should be assigned the absorption
+# coefficient [1/m] versus water depth [m] of colored dissolved
+# organic matter at the wavelength equal to 443 nm.
+
+CDOM_ABSORPTION_443 = 1 0.05
+
+# The CDOM_ABSORPTION_SLOPE tag shall be assigned a value that 
+# determines the wavelength dependence of the absorption by 
+# color dissolved organic matter (CDOM). The default value is 
+# 0.0176. The wavelength dependence of CDOM goes like 
+# exp(-CDOMS*(wv(i)-443)) where CDOMS is the assigned 
+# CDOM_ABSORPTION_SLOPE and wv(i) is the wavelength in nm. 
+# See water_impurity_ccrr material in the Technical Notes 
+# for details.
+
+CDOM_ABSORPTION_SLOPE = 0.0176
+
+# *** The HG_OVERRIDE_VALUE tag is scheduled to be implemented in
+# a later version. Currently it has no effect. ***
+# The HG_OVERRIDE_VALUE tag shall be assigned a default value  
+# of "nan" (do nothing). If this tag is set to a value between 
+# -1 and 1, then the phase function normally used for the 
+# water_impurity_gsm material will be switched off, and 
+# "overriden" by the Henyey-Greenstein phase function.
+# The value specified refers to the asymmetry parameter, "g".
+# For example if HG_OVERRIDE_VALUE = 0.9, then g = 0.9.
+# (Recall that g = -1 for complete backscattering, g = 1 for 
+# complete forward scattering, and g = 0 for isotropic scattering.)
+# This option may be useful for determining if the actual water 
+# impurities are either more or less forward scattering than 
+# specified by the water_impurity_gsm model, which uses a 
+# Fournier-Forand (for nonalgal particles) phase functions.
+# See the Technical Notes for a full description of phase 
+# functions including the Henyey-Greenstein phase function.
+
+HG_OVERRIDE_VALUE = nan
+
+# End of water_impurity_gsm material configuration file

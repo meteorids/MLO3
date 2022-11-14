@@ -1,0 +1,24 @@
+## AccuRT configuration file for vacuum material ##
+
+# Vacuum has refractive index equal to one and no absorption and no
+# scattering.
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or
+# <depth_numbering> depending on whether to use layer numbering
+# (counting downward from top of slab) or depths in meters (counting downward
+# from top of slab) in the MATERIAL_PROFILE tag below. The layer numbering
+# is explained in detail in the main configuration file.
+
+PROFILE_LABEL = depth_numbering
+
+# The MATERIAL_PROFILE tag shall be used to specify the layer number
+# (or depth) and corresponding volume fraction filled by vacuum. A
+# single value will give a constant volume fraction with depth.
+
+MATERIAL_PROFILE = 1
+
+# End of vacuum configuration file

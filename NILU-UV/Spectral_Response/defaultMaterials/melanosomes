@@ -1,0 +1,61 @@
+# AccuRT user configuration file for melanosomes material. 
+
+# The inherent optical properties of melanosomes are modeled as
+# homogeneous spheres with a bimodal log-normal volume size
+# distribution.
+
+# See beginning of the main configuration file for documentation on
+# how to assign values to list and table tags.
+
+#------------------------------------------------------------------
+# Configuration options:
+#------------------------------------------------------------------
+# The PROFILE_LABEL tag shall be assigned <layer_numbering> or
+# <depth_numbering> depending on whether to use layer numbering
+# (counting downward from skin surface) or depths in meters (counting
+# downward from skin surface) in the MATERIAL_PROFILE tag below. The
+# layer numbering is explained in detail in the main configuration
+# file.
+
+PROFILE_LABEL = layer_numbering
+
+# The MATERIAL_PROFILE tag shall be used to specify the layer number
+# (or depth) and the corresponding volume fraction filled by the
+# melanosomes material.
+
+MATERIAL_PROFILE = 1 0.10
+		   2 0.10
+		   3 0.0
+		   4 0.0
+
+# Ratio of amount of eu-melanin to total amount of melanin,
+# i.e. euMelanin/(euMelanin+pheoMelanin)
+
+EU_MELANIN_FRACTION = 0.05
+
+# Imaginary part of melanin refractive index at 500 nm. 
+
+REFRACTIVE_INDEX_IMAG_500 = 0.002
+
+# Tabulated geometrical mean radiuses [microns] versus depth [m]
+# measured from bottom of the upper slab. The geometric mean radius is
+# defined as the radius where the log-normal volume size distribution
+# has its maximum, i.e. the radius, r, where dV/d(ln(r)) has its
+# maximum, where V is the total particle volume fraction.
+
+SIZE_DISTRIBUTION_MEAN_RADIUSES = 1 0.1
+				  2 0.3
+				  3 1.0
+				  4 1.0 
+
+# Widths of the volume size distribution. The width is defined as the
+# geometric standard deviation, i.e. the standard deviation of
+# dV/d(ln(r)). If r_small and r_large denote the radiuses of the
+# particles, half a standard deviation below and above the mean
+# radius, respectively, then the standard deviation (and thus the
+# SIZE_DISTRIBUTION_WIDTHS) would be given as
+# sigma=log(r_large/r_small).
+
+SIZE_DISTRIBUTION_WIDTH = 0.2
+
+# End of melanosomes configuration file
