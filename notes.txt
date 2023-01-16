@@ -1,1 +1,16 @@
 1 AccuRT run is ~23s without the matlab code.
+
+2 The annual rel differences grow with ave. larger sza. they are higher at the beggining and et the end of the year.
+
+3 Put plots net to eachother. 2015, 2018
+
+4 cut toc omi plot 2018 [0, 90] and [270-365] it ~185  and ~365 day period? 
+
+5. It's les ozone because less uv in winter and spring
+
+6. Ozone amounts hit the ozone hole limit 220DU every year.
+
+7 Az eszaki sarkon termelodik az ozone es jon le/fel az egyenlito fele? mikor alacsony az ozone low and mid lattitudeon akkor ozonehole healing van es masutt meg keves? see omi full globe plot panoply
+
+a legszennyeses lekoti ilyenkor az ozonet es nincsen eleg uv a felbomlashoz es a keletkezeshez?
+
