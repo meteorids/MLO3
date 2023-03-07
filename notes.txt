@@ -14,3 +14,4 @@
 
 a legszennyeses lekoti ilyenkor az ozonet es nincsen eleg uv a felbomlashoz es a keletkezeshez?
 
+- check days below 220 DU?
