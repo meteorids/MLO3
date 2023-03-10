@@ -1,0 +1,50 @@
+Nilu data filtered for  100 > COD 
+
+2014
+Yearly mean relative difference:  0.02486048802834238
+Yearly mean absolute difference:  15.581585451197585
+Yearly O3 standard deviation (high noon) for NILU data:  42.75167333734916
+Yearly O3 standard deviation (daily mean) for NILU data:  36.946191619069054
+Yearly O3 standard deviation for OMI data:  37.398551644067226
+
+2015
+Yearly mean relative difference:  0.030774252567541068
+Yearly mean absolute difference:  19.079249049517085
+Yearly O3 standard deviation (high noon) for NILU data:  45.93737057188935
+Yearly O3 standard deviation (daily mean) for NILU data:  39.081880093699105
+Yearly O3 standard deviation for OMI data:  38.87832694543604
+
+2016
+Yearly mean relative difference:  0.07359283458413214
+Yearly mean absolute difference:  46.452147415900306
+Yearly O3 standard deviation (high noon) for NILU data:  36.192208081305964
+Yearly O3 standard deviation (daily mean) for NILU data:  31.57552102906355
+Yearly O3 standard deviation for OMI data:  38.052408588984164
+
+2017
+Yearly mean relative difference:  0.03418016567982122
+Yearly mean absolute difference:  20.011749997951508
+Yearly O3 standard deviation (high noon) for NILU data:  38.87659047585222
+Yearly O3 standard deviation (daily mean) for NILU data:  32.244837550317975
+Yearly O3 standard deviation for OMI data:  35.725391013238294
+
+2018
+Yearly mean relative difference:  0.03590229271187753
+Yearly mean absolute difference:  22.17135584593586
+Yearly O3 standard deviation (high noon) for NILU data:  49.414646638663925
+Yearly O3 standard deviation (daily mean) for NILU data:  41.42299291599309
+Yearly O3 standard deviation for OMI data:  42.95794258539687
+
+2019
+Yearly mean relative difference:  0.02797652195209044
+Yearly mean absolute difference:  17.799807732225855
+Yearly O3 standard deviation (high noon) for NILU data:  43.39002837029781
+Yearly O3 standard deviation (daily mean) for NILU data:  36.565577120858904
+Yearly O3 standard deviation for OMI data:  36.23773583369262
+
+For all years
+Yearly mean relative difference:  0.0316712022561717
+Yearly mean absolute difference:  19.58088265397786
+Yearly O3 standard deviation (high noon) for NILU data:  51.284919135201726
+Yearly O3 standard deviation (daily mean) for NILU data:  38.50966573534641
+Yearly O3 standard deviation for OMI data:  38.35298701383182
