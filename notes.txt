@@ -1,17 +1,22 @@
 1 AccuRT run is ~23s without the matlab code.
 
-2 The annual rel differences grow with ave. larger sza. they are higher at the beginning and et the end of the year.
+2 The annual rel differences grow with ave. larger sza. they are higher at the beginning and et the end of the year. -done
 
-3 Put plots net to each other. 2015, 2018
+3 Put plots next to each other. 2015, 2018 -done
 
-4 cut toc omi plot 2018 [0, 90] and [270-365] it ~185  and ~365 day period? 
+4 cut toc omi plot 2018 [0, 90] and [270-365] it ~185  and ~365 day period? -noneed
 
 5. It's les ozone because less uv in winter and spring
 
-6. Ozone amounts hit the ozone hole limit 220DU every year.
+6. Ozone amounts hit the ozone hole limit 220DU every year. 
 
 7 Az eszaki sarkon termelodik az ozone es jon le/fel az egyenlito fele? mikor alacsony az ozone low and mid lattitudeon akkor ozonehole healing van es masutt meg keves? see omi full globe plot panoply
+-done
 
 a legszennyeses lekoti ilyenkor az ozonet es nincsen eleg uv a felbomlashoz es a keletkezeshez?
+-done
 
 - check days below 220 DU?
+% deviding the minute data with a cos(SZA) then calculating the average VS calculating the average could provide some insight to how the atmospheric condition changed simetrically around solar noon. Look into this and maybe introduce this New variable? 
+
+%Deviding each datapoint with a unique number simetrically around solar noon has the same effect but using cos(SZA) seems a good logical and way. Easy to memorize. EX: Devide the COD numbers with cos(SZA) --> calculate daily average and compare it with the regular average. If the difference (or ratio) is lage there were fluctuations in the COD during the day. IDK how much sense this makes look into this. This can provide insight about COD values simetrically arond Solar noon.

@@ -1,0 +1,59 @@
+2014:
+merged data mean:  307.85613091378065
+merged data std:  36.946191619069054
+merged data min:  231.52132119435262
+merged data max:  428.60225184834104
+
+2015
+merged data mean:  302.8968003090089
+merged data std:  39.081880093699105
+merged data min:  208.75688447806968
+merged data max:  435.5788623149728
+
+2016
+merged data mean:  307.6290401291989
+merged data std:  37.39412577036234
+merged data min:  231.47943366054545
+merged data max:  447.7000122070313
+
+2017
+merged data mean:  299.364769255027
+merged data std:  39.689856153765945
+merged data min:  218.088757948442
+merged data max:  466.2999877929688
+
+2018
+merged data mean:  302.1406031851719
+merged data std:  41.365941984442976
+merged data min:  222.06132722586602
+merged data max:  420.61193622900555
+
+2019
+merged data mean:  321.5843568810489
+merged data std:  33.32541940262422
+merged data min:  224.3000030517578
+merged data max:  430.2999877929688
+
+2020:
+merged data mean:  303.34014063147464
+merged data std:  36.90594602543898
+merged data min:  199.12625030813305
+merged data max:  409.2000122070313
+
+2021
+merged data mean:  318.6973996325836
+merged data std:  36.40992279473502
+merged data min:  239.5
+merged data max:  439.7999877929688
+
+2022
+merged data mean:  309.664717132716
+merged data std:  36.73100590487412
+merged data min:  210.49986097029142
+merged data max:  437.7999877929688
+
+2023
+merged data mean:  303.3179402022332
+merged data std:  34.54223477754246
+merged data min:  240.95102022999893
+merged data max:  419.5

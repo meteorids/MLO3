@@ -1,0 +1,41 @@
+hány nap van, ahol az ozone 220 alatt van
+ezek dátumai
+külön NILU és OMI
+
+mik a minimumértékek és maximumértékei, ezek dátumai
+
+NILU-ra éves átlagok
+
+NILU min max values
+
+maximum O3 NILU : 2015.02.19. 	17:11
+	O3: 519.429838
+	COD: 0.226192
+	
+minimum O3 NILU: 2018.12.18.	18:52
+	O3: 30.077004
+	COD: 8389.372117
+	
+maximum COD NILU: 2014.05.06.	15:52
+	O3: 133.948383
+	COD: 292818.253503
+	
+minimum COD NILU:  2016.01.27.	14:28
+	O3: 64.379249
+	COD: 0.000451
+	
+	
+OMI min max values
+maximum O3 OMI: 2014.03.26.
+	O3: 471.200012
+	
+minimum O3 OMI: 2019.01.07.
+	O3: 224.300003
+	
+	
+O3 mean for year 2014 : 313.54204998920216
+O3 mean for year 2015 : 309.9332530385714
+O3 mean for year 2016 : 298.7960973415596
+O3 mean for year 2017 : 293.8546534222557
+O3 mean for year 2018 : 308.8909811047416
+O3 mean for year 2019 : 319.145588032953
