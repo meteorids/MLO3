@@ -1,0 +1,23 @@
+                            Summary for NILU-UV 115
+
+Uvpro Version 2.0
+Latitude :   40.74 (North)
+Longitude:  -74.03  (West)
+Calibration file: cf100603a.115
+Height above sea level:    33.0  m
+Time interval averages are based on: 16.435 UTC Hrs - 17.435 UTC Hrs
+CLT derived from channel 4
+CLT scale factor used:   1.0
+Ozone average contain only measurements with CLT > 30.00
+Ozone average contain only measurements with SZA < 80.00
+Ozone derived from channel pair ch3/ch2
+Ozone scale factor used:   1.0
+Ozone profile climatology: Mid  Latitude
+Dose type:    CLW    Caldwell Plant 1971           
+Drift factors used are found in the pr-files
+
+
+                 <------------ averages ------------->   Maximum    Integrated
+yyyy mm dd  jul   o3    no3   o3sig  dose rate    clt   dose rate   daily dose
+                 [DU]         [DU]   [W/m^2]      [%]   [W/m^2]     [J/m^2]    
+2021 10  1  274  -99.9    0  -99.9   0.2949E-01   1.85  0.2054E+00  0.1223E+04
