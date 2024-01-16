@@ -1,0 +1,94 @@
+\begin{thebibliography}{10}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{Fan:2014}
+L.~Fan, W.~Li, A.~Dahlback, J.~J. Stamnes, S.~Stamnes, and K.~Stamnes,
+  \enquote{New neural-network-based method to infer total ozone column amounts
+  and cloud effects from multi-channel, moderate bandwidth filter instruments,}
+  {\protect\JournalTitle{Opt. Express}} \textbf{22}, 19595--19609 (2014).
+
+\bibitem{Aalerud:2006}
+T.~N. Aalerud and B.~Johnsen, \emph{The Norwegian UV Monitoring Network}
+  (Norwegian Radiation Protection Authority, 2006).
+
+\bibitem{Knut:2018}
+K.~Stamnes, B.~Hamre, S.~Stamnes, N.~Chen, Y.~Fan, W.~Li, Z.~Lin, and
+  J.~Stamnes, \enquote{Progress in forward-inverse modeling based on radiative
+  transfer tools for coupled atmosphere-snow/ice-ocean systems: A review and
+  description of the accurt model,} {\protect\JournalTitle{Applied Sciences}}
+  \textbf{8} (2018).
+
+\bibitem{Knut:1988}
+K.~Stamnes, S.-C. Tsay, W.~Wiscombe, and K.~Jayaweera, \enquote{Numerically
+  stable algorithm for discrete-ordinate-method radiative transfer in multiple
+  scattering and emitting layered media,} {\protect\JournalTitle{Appl. Opt.}}
+  \textbf{27}, 2502--2509 (1988).
+
+\bibitem{knutbook}
+K.~Stamnes, G.~E. Thomas, and J.~J. Stamnes, \emph{Radiative Transfer in the
+  Atmosphere and Ocean} (Cambridge University, 2017).
+
+\bibitem{Dahlback:2003}
+B.~A.~K. H{\o}iskar, R.~Haugen, T.~Danielsen, A.~Kylling, K.~Edvardsen,
+  A.~Dahlback, B.~Johnsen, M.~Blumthaler, and J.~Schreder,
+  \enquote{Multichannel moderate-bandwidth filter instrument for measurement of
+  the ozone-column amount, cloud transmittance, and ultraviolet dose rates,}
+  {\protect\JournalTitle{Appl. Opt.}} \textbf{42}, 3472--3479 (2003).
+
+\bibitem{USstandardatmosphere}
+{NASA, NOAA, USAF}, \enquote{U. {S}. {S}tandard {A}tmosphere,}  (1976).
+
+\bibitem{Sugawara:2014}
+H.~Sugawara and T.~Takamura, \enquote{Surface albedo in cities: Case study in
+  sapporo and tokyo, japan,} {\protect\JournalTitle{Boundary-Layer
+  Meteorology}} \textbf{153}, 539--553 (2014).
+
+\bibitem{Kazantzidis:2009}
+A.~Kazantzidis, A.~F. Bais, M.~M. Zempila, C.~Meleti, K.~Eleftheratos, and
+  C.~S. Zerefos, \enquote{Evaluation of ozone column measurements over greece
+  with nilu-uv multi-channel radiometers,} {\protect\JournalTitle{International
+  Journal of Remote Sensing}} \textbf{30}, 4273--4281 (2009).
+
+\bibitem{Sztipanov:20}
+M.~Sztipanov, L.~Tumeh, W.~Li, T.~Svendby, A.~Kylling, A.~Dahlback, J.~J.
+  Stamnes, G.~Hansen, and K.~Stamnes, \enquote{Ground-based measurements of
+  total ozone column amount with a multichannel moderate-bandwidth filter
+  instrument at the troll research station, antarctica,}
+  {\protect\JournalTitle{Appl. Opt.}} \textbf{59}, 97--106 (2020).
+
+\bibitem{Dahlback:1996}
+A.~Dahlback, \enquote{Measurements of biologically effective uv doses, total
+  ozone abundances, and cloud effects with multichannel, moderate bandwidth
+  filter instruments,} {\protect\JournalTitle{Appl. Opt.}} \textbf{35},
+  6514--6521 (1996).
+
+\bibitem{Hoiskar2003}
+B.~A.~K. H{\o}iskar, R.~Haugen, T.~Danielsen, A.~Kylling, K.~Edvardsen,
+  A.~Dahlback, B.~Johnsen, M.~Blumthaler, and J.~Schreder,
+  \enquote{Multichannel moderate-bandwidth filter instrument for measurement of
+  the ozone-column amount, cloud transmittance, and ultraviolet dose rates,}
+  {\protect\JournalTitle{Applied optics}} \textbf{42}, 3472--3479 (2003).
+
+\bibitem{Perliski:1989}
+L.~M. Perliski, S.~Solomon, and J.~London, \enquote{On the interpretation of
+  seasonal variations of stratospheric ozone,} {\protect\JournalTitle{Planetary
+  and Space Science}} \textbf{37}, 1527--1538 (1989). Special Issue G.M.B.
+  Dobson: Atmospheric Ozone Issue.
+
+\bibitem{Sztipanov:2023}
+M.~Sztipanov, W.~Li, A.~Dahlback, J.~Stamnes, T.~Svendby, and K.~Stamnes,
+  \enquote{Method for retrieval of aerosol optical depth from multichannel
+  irradiance measurements,} {\protect\JournalTitle{Opt. Express}} \textbf{31},
+  40070--40085 (2023).
+
+\bibitem{Fan:2014b}
+L.~Fan, W.~Li, A.~Dahlback, J.~J. Stamnes, S.~Engelhardt, S.~Stamnes, and
+  K.~Stamnes, \enquote{Comparisons of three nilu-uv instruments deployed at the
+  same site in the new york area,} {\protect\JournalTitle{Applied Optics}}
+  \textbf{53}, 598--3605 (2014).
+
+\bibitem{NASA:gesdisc}
+{NASA}, \enquote{{Goddard Earth Sciences Data and Information Services
+  Center},} https://disc.gsfc.nasa.gov.
+
+\end{thebibliography}

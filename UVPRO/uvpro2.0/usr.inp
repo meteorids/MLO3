@@ -1,0 +1,32 @@
+# User defined time for calculation of averages  (No = 1, Yes = 2):
+1
+# User defined time for calculation of averages (UTC fractional hours):
+12.0
+# User defined time interval for calculation of averages (fractional hours):
+1.0
+# Ozone scale factor Channel3/Channel2
+1.0
+# Ozone scale factor Channel3/Channel1
+1.0
+# Accept o3 in summary-file only if CLT is larger than:
+7.0
+# Accept o3 in summary-file only if SZA is less than:
+80
+# CLT scale factor ch4
+1.0
+# CLT scale factor ch5
+1.0
+# Ozone profile climatology (Low lat=1  Mid lat=2  High lat=3)
+2
+# Ozone channel pair  (Ch3/Ch2 = 1   Ch3/Ch1 = 2  Ch4/Ch1=3  Ch5/Ch1=4 Ch2/Ch1=5)
+2
+# Automatically select ozone channel pair (No = 1   Yes = 2)
+1
+# If automatically selection of ozone channel pair, switch at SZA
+65.0
+# CLT channel  (Channel4 = 1    Channel5 = 2)
+2
+# Date format preference (Day-number = 1   Day and Month = 2)
+1
+# NILU-UV integration time in minutes  (1, 2, 5 or 15):
+1

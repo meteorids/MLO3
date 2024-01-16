@@ -1,0 +1,18 @@
+                            NILUUV 115
+
+Uvpro Version 2.0
+Latitude :   40.74 (North)
+Longitude:  -74.03  (West)
+Calibration file: cf100603a.115
+Height above sea level:    40.0  m
+CLT derived from channel 5
+CLT scale factor used:   1.0
+Ozone derived from channel pair ch3/ch1
+Ozone scale factor used:   1.0
+Drift factors ch1-ch6:   0.308  0.342  0.472  0.518  0.365  0.930
+Ozone profile climatology: Mid  Latitude
+Dose type:    CLW    Caldwell Plant 1971           
+
+yyyy mm dd   jul   hh mm ss      SZA     dose rate       clt     Ozone
+                              [degrees]   [W/m^2]        [%]     [DU]
+2023  3 24    83   20 26  0     60.23   -0.4366E-03      -0.1    343.6
